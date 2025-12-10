@@ -14,6 +14,8 @@ When placing your finger gently on the sensor (which shines red/infrared light t
 
 Read more about the Pulse Oximeter & Heart Rate Sensor [here](https://learn.sparkfun.com/tutorials/sparkfun-pulse-oximeter-and-heart-rate-monitor-hookup-guide)
 
+Showcase video [here](https://www.youtube.com/watch?v=FVOD5SdEAFA)
+
 ----
 # TUTORIAL
 ----
