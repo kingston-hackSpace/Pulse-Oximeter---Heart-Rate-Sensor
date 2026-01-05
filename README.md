@@ -29,6 +29,8 @@ Showcase video [here](https://www.youtube.com/watch?v=FVOD5SdEAFA)
 
 ⚡ Warning! Remember, this biometric sensor supports **3.3V only**. 
 
+Wiring reference image [here]()
+
 SENSOR | Arduino
 -|-
 SCL | SCL
