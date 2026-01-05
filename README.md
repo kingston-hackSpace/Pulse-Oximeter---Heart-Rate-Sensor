@@ -29,7 +29,7 @@ Showcase video [here](https://www.youtube.com/watch?v=FVOD5SdEAFA)
 
 ⚡ Warning! Remember, this biometric sensor supports **3.3V only**. 
 
-Wiring reference image [here]()
+Reference image [here](https://github.com/kingston-hackSpace/Pulse-Oximeter---Heart-Rate-Sensor/blob/main/PulseSensor_Sparkfun.png)
 
 SENSOR | Arduino
 -|-
