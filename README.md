@@ -2,7 +2,7 @@
 
 Pulse sensors available at hackSpace:
 
-[Sparkfun Pulse Oximeter & Heart Rate Sensor](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/Pulse-Oximeter---Heart-Rate-Sensor.md)
+## [Sparkfun Pulse Oximeter & Heart Rate Sensor](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/Pulse-Oximeter---Heart-Rate-Sensor.md)
 
 Use this sensor when you need 
 
@@ -13,7 +13,7 @@ Use this sensor when you need
 - Used for health monitoring, research, or data-logging experiments.
 
 
-[Pulse Sensor Amp]
+## [Pulse Sensor Amp](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/Pulse-Sensor-Amp.md)
 
 Use this sensor when you need:
 
