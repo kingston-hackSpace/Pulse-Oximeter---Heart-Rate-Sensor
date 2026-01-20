@@ -1,20 +1,24 @@
 # Pulse Sensor Amp
 
-Reference image [here]
+Reference image [here](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/PulseSensor_1.webp)
 
-[Video brief of the Pulse Sensor](https://www.youtube.com/watch?v=RbB8NSRa5X4)
 
-[Compatible micro-controllers](https://pulsesensor.com/products/pulse-sensor-amped)
+Watch video: [Pulse Sensor](https://www.youtube.com/watch?v=RbB8NSRa5X4)
 
-[About Pulse Sensor](https://pulsesensor.com/products/pulse-sensor-amped)
+Read more: [Compatible micro-controllers](https://pulsesensor.com/products/pulse-sensor-amped)
+
+Read more: [About Pulse Sensor](https://pulsesensor.com/products/pulse-sensor-amped)
 
 ----
 # TUTORIAL
 ----
 ## HARWARE
 
+- Arduino UNO
 
-Pulse Sensor KIT:
+- LED + 20ohms resistor
+  
+- Pulse Sensor KIT:
 
   - Pulse Sensor
   
@@ -24,7 +28,48 @@ Pulse Sensor KIT:
 
   - Velcro Finger Strap (for secure attachment)
 
-- Transparent Vinyl Dots (for electrical insulation)
+  - Transparent Vinyl Dots (for electrical insulation)
+
+----
+## WIRING
+
+The PulseSensor comes with a 3-cable ribbon cable terminating in a male header. The pinout is as follows:
+
+Purple Wire = Analog Pulse Signal
+Red Wire = Vdd, Power with 3V or 5V
+Black Wire = Ground
+
+More about wiring in the tutorial below
+
+----
+## CODE and INSTRUCTIONS
+
+- Open the Arduino IDE and install the "PulseSensor Playground":
+
+    - Open your Library Manager
+ 
+    - Search for "PulseSensor Playground" and install
+  
+- To continue, follow [this tutorial](https://pulsesensor.com/pages/code-and-guide)
+
+----
+## SET UP ADVICE
+
+Squeezing the Pulse Sensor too hard against your skin will make the heartbeat go away, and not enough pressure will cause too much noise. 
+
+If the code is reading too many Beats Per Minute, or you are getting lots of noise, try adjusting the Threshold setting. The Threshold variable tells Arduino when to find a pulse that is legit. Adjust the Threshold value (noted above with arrows).  The Threshold can be any number between 0-1024, but try adjusting by steps of 5 or 10.  Decreasing the Threshold increases the sensitivity.  Increasing the Threshold decreases the sensitivity.  
+See if you can find a better threshold for your finger than our default value.
+
+----
+## HOW IT WORKS
+
+The sensor is essentially a small optical heart rate monitor that uses photoplethysmography (PPG). An LED shines light into your skin, and a light sensor measures how much light is reflected back. As blood pulses through your capillaries with each heartbeat, the amount of reflected light changes. These tiny changes create a waveform that corresponds to your pulse.
+
+- The sensor relies on steady contact between the LED, the skin, and the light sensor.
+
+- If the finger moves, lifts slightly, or presses unevenly, the reflected light drops.
+
+- Shield the sensor from bright ambient light where possible.
 
 ----
 ## 3D PRINT
@@ -34,21 +79,3 @@ The PulseSensor is incredibly sensitive, which is usually a good thing. But some
 The [Stabilizer Ring](https://pulsesensor.com/products/gold-stablizer-ring) (available for 3D printing) enhances user comfort for both short-term and long-term readings. It also expands a user's freedom of movement while wearing the sensor.
 
 Download 3D file (stl) [here](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/PulseSensorStabilizerRing.stl)
-
-----
-## WIRING
-
-The PulseSensor comes with a 3-cable ribbon cable terminating in a male header. The pinout is as follows:
-
-Purple Wire = Analog Pulse Signal (Vdd/2)
-Red Wire = Vdd, Power with 3V or 5V
-Black Wire = Ground
-
-----
-## SET UP ADVICE
-
-The PulseSensor will not work correctly without insulating the front and back of the circular circuit board with the included kit components. Some user preparation is required:
-
-Start by insulating the front from the user's skin with the transparent Vinyl Dots.
-Insulate the back from any human skin and any electronically connective material by putting velcro backing on the back of the printed circuit board.
-You can wear the sensor using the included Velcro Strip on a fingertip or attach it to the included ear clip using hot glue.
