@@ -1,15 +1,12 @@
 # Pulse Sensor Amp
 
-Brief showcase of the Pulse Sensor Amp: [watch video here](https://www.youtube.com/watch?v=RbB8NSRa5X4)
+Reference image [here]
 
-Read more [here](https://pulsesensor.com/products/pulse-sensor-amped)
+[Video brief of the Pulse Sensor](https://www.youtube.com/watch?v=RbB8NSRa5X4)
 
-----
-# Compatibility
+[Compatible micro-controllers](https://pulsesensor.com/products/pulse-sensor-amped)
 
-Arduino boards: Arduino Uno, Mega 2560, Leonardo, Due, Nano, Micro, Yún, Pro Mini, Zero, MKR1000, MKR WiFi 1010, MKR FOX 1200, MKR GSM 1400, MKR NB 1500, MKR WAN 1300, MKR WAN 1310, MKR VIDOR 4000, Portenta H7, Nano 33 IoT, Nano Every, Nano 33 BLE, Nano 33 BLE Sense, Uno WiFi Rev2, Lilypad Arduino USB, Lilypad Arduino SimpleSnap, Esplora, Robot, and Tian.
-
-Others: micro:bit (V1 and V2), various Adafruit boards like Feather M0, Feather HUZZAH ESP8266, Feather M4 Express, Metro M0 Express, Metro M4, ItsyBitsy M0, ItsyBitsy M4, Circuit Playground Express, and Gemma M0, and SparkFun boards such as RedBoard, Pro Micro, Thing Plus - ESP32 WROOM, BlackBoard, SAMD21 Mini Breakout, Qwiic Micro, and Photon RedBoard.
+[About Pulse Sensor](https://pulsesensor.com/products/pulse-sensor-amped)
 
 ----
 # TUTORIAL
@@ -36,7 +33,7 @@ The PulseSensor is incredibly sensitive, which is usually a good thing. But some
 
 The [Stabilizer Ring](https://pulsesensor.com/products/gold-stablizer-ring) (available for 3D printing) enhances user comfort for both short-term and long-term readings. It also expands a user's freedom of movement while wearing the sensor.
 
-Download 3D file (stl) [here]()
+Download 3D file (stl) [here](https://github.com/kingston-hackSpace/Pulse_Sensor/blob/main/PulseSensorStabilizerRing.stl)
 
 ----
 ## WIRING
