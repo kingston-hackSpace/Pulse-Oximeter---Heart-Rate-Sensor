@@ -1,10 +1,57 @@
 # Pulse Sensor Amp
 
+Brief showcase of the Pulse Sensor Amp: [watch video here](https://www.youtube.com/watch?v=RbB8NSRa5X4)
+
 Read more [here](https://pulsesensor.com/products/pulse-sensor-amped)
 
-KIT
-**PulseSensor Hardware:** The heart of the kit with built-in amplification
-**Premium Braided Cable:** 26 gauge wires, 24 inches (610mm) with PVC insulation
-**Ear Clip:** For alternate placement options
-**Velcro Finger Strap:** Professional-grade for secure attachment
-**Transparent Vinyl Dots:** For electrical insulation
+----
+# Compatibility
+
+Arduino boards: Arduino Uno, Mega 2560, Leonardo, Due, Nano, Micro, Yún, Pro Mini, Zero, MKR1000, MKR WiFi 1010, MKR FOX 1200, MKR GSM 1400, MKR NB 1500, MKR WAN 1300, MKR WAN 1310, MKR VIDOR 4000, Portenta H7, Nano 33 IoT, Nano Every, Nano 33 BLE, Nano 33 BLE Sense, Uno WiFi Rev2, Lilypad Arduino USB, Lilypad Arduino SimpleSnap, Esplora, Robot, and Tian.
+
+Others: micro:bit (V1 and V2), various Adafruit boards like Feather M0, Feather HUZZAH ESP8266, Feather M4 Express, Metro M0 Express, Metro M4, ItsyBitsy M0, ItsyBitsy M4, Circuit Playground Express, and Gemma M0, and SparkFun boards such as RedBoard, Pro Micro, Thing Plus - ESP32 WROOM, BlackBoard, SAMD21 Mini Breakout, Qwiic Micro, and Photon RedBoard.
+
+----
+# TUTORIAL
+----
+## HARWARE
+
+
+Pulse Sensor KIT:
+
+  - Pulse Sensor
+  
+  - Premium Braided Cable
+
+  - Ear Clip (for alternate placement options)
+
+  - Velcro Finger Strap (for secure attachment)
+
+- Transparent Vinyl Dots (for electrical insulation)
+
+----
+## 3D PRINT
+
+The PulseSensor is incredibly sensitive, which is usually a good thing. But sometimes, it's a bit too sensitive. A minor movement can mess with the data readings. 
+
+The [Stabilizer Ring](https://pulsesensor.com/products/gold-stablizer-ring) (available for 3D printing) enhances user comfort for both short-term and long-term readings. It also expands a user's freedom of movement while wearing the sensor.
+
+Download 3D file (stl) [here]()
+
+----
+## WIRING
+
+The PulseSensor comes with a 3-cable ribbon cable terminating in a male header. The pinout is as follows:
+
+Purple Wire = Analog Pulse Signal (Vdd/2)
+Red Wire = Vdd, Power with 3V or 5V
+Black Wire = Ground
+
+----
+## SET UP ADVICE
+
+The PulseSensor will not work correctly without insulating the front and back of the circular circuit board with the included kit components. Some user preparation is required:
+
+Start by insulating the front from the user's skin with the transparent Vinyl Dots.
+Insulate the back from any human skin and any electronically connective material by putting velcro backing on the back of the printed circuit board.
+You can wear the sensor using the included Velcro Strip on a fingertip or attach it to the included ear clip using hot glue.
