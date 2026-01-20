@@ -27,7 +27,7 @@ The sensor is essentially a small optical heart rate monitor that uses photoplet
 
 - Arduino UNO
 
-- LED + 20ohms resistor
+- LED + 20ohms resistor (x2)
   
 - Pulse Sensor KIT:
 
