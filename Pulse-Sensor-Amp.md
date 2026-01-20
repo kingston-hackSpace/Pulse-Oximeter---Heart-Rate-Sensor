@@ -10,6 +10,17 @@ Read more: [Compatible micro-controllers](https://pulsesensor.com/products/pulse
 Read more: [About Pulse Sensor](https://pulsesensor.com/products/pulse-sensor-amped)
 
 ----
+## HOW IT WORKS
+
+The sensor is essentially a small optical heart rate monitor that uses photoplethysmography (PPG). An LED shines light into your skin, and a light sensor measures how much light is reflected back. As blood pulses through your capillaries with each heartbeat, the amount of reflected light changes. These tiny changes create a waveform that corresponds to your pulse.
+
+- The sensor relies on steady contact between the LED, the skin, and the light sensor.
+
+- If the finger moves, lifts slightly, or presses unevenly, the reflected light drops.
+
+- Shield the sensor from bright ambient light where possible.
+
+----
 # TUTORIAL
 ----
 ## HARWARE
@@ -50,7 +61,31 @@ More about wiring in the tutorial below
  
     - Search for "PulseSensor Playground" and install
   
-- To continue, follow [this tutorial](https://pulsesensor.com/pages/code-and-guide)
+- Please follow the next two tutorials in the order provided.  
+
+STEP 1: [Analog Signals tutorial](https://pulsesensor.com/pages/code-and-guide). This code was designed to visualise analog signals from the sensor by using the Arduino Serial Plotter. More stable signals for further visualisations will be explored next. 
+
+STEP 2: [BPM](https://pulsesensor.com/pages/getting-advanced), you will find 2 tutorials:
+
+          - Getting BPM to Monitor: get BPM data and print it to the serial monitor.
+          
+          - Pulse Sensor BPM : turn on an LED based on Heart Beats. In your code, the variable "pulseSensor.outputSample()" prints 3 data types:
+
+                1. BPM (Beats Per Minute).
+                
+                2. The raw analog signal from the Pulse Sensor.
+                
+                3. An smoothed or processed signal.
+
+Now you understand the sensor's outcoming data, you can use it for more advanced projects:
+
+[Processing Heart Beat Visualiser](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Processing_Visualizer)
+
+[Pulse Sensor Speaker Tutorial](https://pulsesensor.com/pages/pulse-sensor-speaker-tutorial)
+
+[Pulse Sensor Servo Tutorial](https://pulsesensor.com/pages/pulse-sensor-servo-tutorial)
+
+For more tutorials, explore Arduino and Processing at the [left side menu of this page](https://pulsesensor.com/)
 
 ----
 ## SET UP ADVICE
@@ -60,16 +95,7 @@ Squeezing the Pulse Sensor too hard against your skin will make the heartbeat go
 If the code is reading too many Beats Per Minute, or you are getting lots of noise, try adjusting the Threshold setting. The Threshold variable tells Arduino when to find a pulse that is legit. Adjust the Threshold value (noted above with arrows).  The Threshold can be any number between 0-1024, but try adjusting by steps of 5 or 10.  Decreasing the Threshold increases the sensitivity.  Increasing the Threshold decreases the sensitivity.  
 See if you can find a better threshold for your finger than our default value.
 
-----
-## HOW IT WORKS
 
-The sensor is essentially a small optical heart rate monitor that uses photoplethysmography (PPG). An LED shines light into your skin, and a light sensor measures how much light is reflected back. As blood pulses through your capillaries with each heartbeat, the amount of reflected light changes. These tiny changes create a waveform that corresponds to your pulse.
-
-- The sensor relies on steady contact between the LED, the skin, and the light sensor.
-
-- If the finger moves, lifts slightly, or presses unevenly, the reflected light drops.
-
-- Shield the sensor from bright ambient light where possible.
 
 ----
 ## 3D PRINT
